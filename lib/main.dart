@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+import 'package:flutterprojeleri/101/%C3%BC%C3%A7_scaffold_learn.dart';
+import 'package:flutterprojeleri/101/bir_text.dart';
+import 'package:flutterprojeleri/101/d%C3%B6rt_button_learn.dart';
+import 'package:flutterprojeleri/101/iki_container_sized_box_learn.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData.dark(),
+      home: const ButtonLearnWidget(),
+    );
+  }
+}
