@@ -20,7 +20,7 @@ class ButtonLearnWidget extends StatelessWidget {
               return Colors.white;
             })),
           ),
-          ElevatedButton(onPressed: () {}, child: Text('data')),
+          ElevatedButton(onPressed: () {}, child: Text('dataa')),
           IconButton(
               onPressed: () {}, icon: const Icon(Icons.add_photo_alternate)),
           FloatingActionButton(
