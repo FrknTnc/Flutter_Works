@@ -27,7 +27,11 @@ class ButtonLearnWidget extends StatelessWidget {
             onPressed: () {},
             child: const Icon(Icons.add_alarm_sharp),
           ),
-          OutlinedButton(onPressed: () {}, child: const Text('data')),
+          OutlinedButton(
+              style: OutlinedButton.styleFrom(
+                  backgroundColor: Colors.red, shape: CircleBorder()),
+              onPressed: () {},
+              child: const Text('data')),
           InkWell(
             onTap: () {},
             child: const Text('custom'),
