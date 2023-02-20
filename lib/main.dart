@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 91, 83, 83),
         elevation: 0,
       )),
-      home: const IconLearnView(),
+      home: IconLearnView(),
     );
   }
 }
