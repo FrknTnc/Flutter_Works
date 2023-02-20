@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterprojeleri/101/%C3%BC%C3%A7_scaffold_learn.dart';
+import 'package:flutterprojeleri/101/be%C5%9F_appbar.dart';
 import 'package:flutterprojeleri/101/bir_text.dart';
 import 'package:flutterprojeleri/101/d%C3%B6rt_button_learn.dart';
 import 'package:flutterprojeleri/101/iki_container_sized_box_learn.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: const ButtonLearnWidget(),
+      home: const AppBarLearnView(),
     );
   }
 }
