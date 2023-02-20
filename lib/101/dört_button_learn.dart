@@ -49,7 +49,24 @@ class ButtonLearnWidget extends StatelessWidget {
           Container(
             height: 200,
             color: Colors.white,
-          )
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.black,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(20)))),
+              onPressed: () {},
+              child: Padding(
+                padding: const EdgeInsets.only(
+                    top: 10, bottom: 10, right: 20, left: 20),
+                child: Text(
+                  'Add Chart',
+                  style: Theme.of(context).textTheme.headlineLarge,
+                ),
+              ))
         ],
       ),
     );
